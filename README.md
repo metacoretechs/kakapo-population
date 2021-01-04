@@ -9,3 +9,5 @@ To update, add the new data values at the end of the vectors in the data frame, 
 The charts are updated on Wikimedia Commons at https://commons.wikimedia.org/wiki/File:Kakapo-population-size.svg, and used in several language editions of Wikipedia including https://en.wikipedia.org/wiki/Kakapo.
 
 `kakapopop_notext.R` is a version with no legend labels on the chart, which can be used for non-English language articles and content.
+
+![Kākāpo population size](kakapopop_1975-2020.svg?raw=true&sanitize=true "Kākāpo population size")
