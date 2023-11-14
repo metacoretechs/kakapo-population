@@ -19,7 +19,7 @@ ggplot(kpop, aes(year, total)) +
         axis.text = element_text(size=14),
         axis.title = element_text(size=14,face="bold"),
         panel.grid = element_blank()) +
-  scale_y_continuous(name = "Number of kākāpō", breaks = seq(from = 0, to = 240, by = 20), limits = c(0,240)) +
+  scale_y_continuous(name = "Number of kākāpō", breaks = seq(from = 0, to = 260, by = 20), limits = c(0,260)) +
   scale_x_continuous(name = "Year", breaks = seq(from = 1975, to = 2023, by = 5)) +
   labs(title = "Kākāpō population size")
 

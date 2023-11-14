@@ -17,8 +17,8 @@ ggplot(kpop, aes(year, total)) +
         axis.text = element_text(size=14),
         axis.title = element_text(size=14,face="bold"),
         panel.grid = element_blank()) +
-  scale_y_continuous(breaks = seq(from = 0, to = 240, by = 20), limits = c(0,240)) +
-  scale_x_continuous(breaks = seq(from = 1975, to = 2022, by = 5)) +
+  scale_y_continuous(breaks = seq(from = 0, to = 260, by = 20), limits = c(0,260)) +
+  scale_x_continuous(breaks = seq(from = 1975, to = 2023, by = 5)) +
   theme(
     plot.title = element_blank(),
     axis.title.x = element_blank(),
