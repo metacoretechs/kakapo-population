@@ -10,6 +10,8 @@ kpop <- data.frame("year" = 1977:2025,
                    "total" = c(167,146,125,107,87,77,71,67,67,66,64,59,57,55,56,55,53,52,51,51,54,57,62,62,62,86,86,83,86,86,86,91,124,122,128,125,124,127,126,158,154,149,148,211,205,200,248,247,242)
 )
 kpop$breed_years <- ifelse(kpop$breeding, kpop$year, NA)
+
+# Plot population chart with English language labels
 ggplot(kpop, aes(year, total)) +
   geom_line(size=1, color="darkblue") +
   geom_point(size=2.5, shape=23, stroke=2, fill="yellow", color="darkgreen") +
@@ -23,6 +25,7 @@ ggplot(kpop, aes(year, total)) +
   scale_x_continuous(name = "Year", breaks = seq(from = 1975, to = 2025, by = 5)) +
   labs(title = "Kākāpō population size")
 
+# Plot "no text" version (no title or axis labels)
 ggplot(kpop, aes(year, total)) +
   geom_line(size=1, color="darkblue") +
   geom_point(size=2.5, shape=23, stroke=2, fill="yellow", color="darkgreen") +
